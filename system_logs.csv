@@ -1,0 +1,153 @@
+timestamp,level,event,detail
+2026-06-26 18:18:13,INFO,PARSE_METHOD,structure
+2026-06-26 18:18:13,INFO,PARSE_OK,total_ads=2
+2026-06-26 18:18:13,INFO,FILTER_OK,new=1 total_seen=1
+2026-06-26 18:38:26,INFO,START,BULK_MODE=
+2026-06-26 18:38:26,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:38:31,INFO,SCRAPE_OK,status=200 size=5227533
+2026-06-26 18:38:31,INFO,PARSE_METHOD,classes
+2026-06-26 18:38:31,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:38:31,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:38:31,INFO,FILTER_OK,new=0 total_seen=0
+2026-06-26 18:38:31,INFO,END,no new ads
+2026-06-26 18:39:40,INFO,START,BULK_MODE=
+2026-06-26 18:39:40,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:39:46,INFO,SCRAPE_OK,status=200 size=5194238
+2026-06-26 18:39:46,INFO,PARSE_METHOD,classes
+2026-06-26 18:39:46,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:39:46,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:39:46,INFO,FILTER_OK,new=17 total_seen=0
+2026-06-26 18:39:47,WARN,GEMINI_ERR,attempt=1 err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 11.640445767s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}
+2026-06-26 18:39:50,WARN,GEMINI_ERR,attempt=2 err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 8.503354916s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+2026-06-26 18:39:53,WARN,GEMINI_ERR,attempt=3 err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 5.361761689s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}
+2026-06-26 18:39:53,ERROR,GEMINI_FAIL,all retries exhausted
+2026-06-26 18:39:53,INFO,END,no evaluations returned
+2026-06-26 18:39:53,INFO,STATE_SAVED,ids_appended=17
+2026-06-26 18:40:12,INFO,START,BULK_MODE=
+2026-06-26 18:40:12,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:40:19,INFO,SCRAPE_OK,status=200 size=5192375
+2026-06-26 18:40:19,INFO,PARSE_METHOD,classes
+2026-06-26 18:40:19,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:40:19,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:40:19,INFO,FILTER_OK,new=0 total_seen=16
+2026-06-26 18:40:19,INFO,END,no new ads
+2026-06-26 18:44:40,INFO,START,BULK_MODE=
+2026-06-26 18:44:40,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:44:40,WARN,SCRAPE_ERR,attempt=1 err=('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-26 18:44:54,WARN,SCRAPE_ERR,attempt=2 err=('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-26 18:45:09,WARN,SCRAPE_ERR,attempt=3 err=('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-26 18:45:09,ERROR,SCRAPE_EXHAUSTED,all retries failed
+2026-06-26 18:45:09,ERROR,ABORT,no html fetched
+2026-06-26 18:45:22,INFO,START,BULK_MODE=
+2026-06-26 18:45:22,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:45:29,INFO,SCRAPE_OK,status=200 size=5189410
+2026-06-26 18:45:29,INFO,PARSE_METHOD,classes
+2026-06-26 18:45:29,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:45:29,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:45:29,INFO,FILTER_OK,new=17 total_seen=0
+2026-06-26 18:47:02,INFO,GEMINI_OK,evaluated=17
+2026-06-26 18:47:02,INFO,TELEGRAM_OK,
+2026-06-26 18:47:16,INFO,START,BULK_MODE=
+2026-06-26 18:47:16,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:47:19,INFO,SCRAPE_OK,status=200 size=5188146
+2026-06-26 18:47:19,INFO,PARSE_METHOD,classes
+2026-06-26 18:47:19,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:47:19,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:47:19,INFO,FILTER_OK,new=17 total_seen=0
+2026-06-26 18:48:40,INFO,GEMINI_OK,evaluated=17
+2026-06-26 18:48:40,INFO,TELEGRAM_OK,
+2026-06-26 18:48:54,INFO,START,BULK_MODE=
+2026-06-26 18:48:54,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:49:04,INFO,SCRAPE_OK,status=200 size=5188574
+2026-06-26 18:49:04,INFO,PARSE_METHOD,classes
+2026-06-26 18:49:04,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:49:04,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:49:04,INFO,FILTER_OK,new=17 total_seen=0
+2026-06-26 18:50:11,INFO,GEMINI_OK,evaluated=17
+2026-06-26 18:50:12,INFO,TELEGRAM_OK,
+2026-06-26 18:50:12,INFO,ALERT,deal: Apple - iPhone 11 Storge 256 with box EGP 12,500
+2026-06-26 18:50:15,INFO,TELEGRAM_OK,
+2026-06-26 18:50:15,INFO,ALERT,deal: سامسونج ايه 15 5 جي EGP 5,500
+2026-06-26 18:50:17,INFO,TELEGRAM_OK,
+2026-06-26 18:50:17,INFO,ALERT,deal: Apple - iPhone 11 Pro Max EGP 12,000
+2026-06-26 18:50:17,INFO,STATE_SAVED,ids_appended=17
+2026-06-26 18:50:17,INFO,DB_APPEND_OK,rows=17
+2026-06-26 18:50:18,ERROR,GIT_PUSH_ERR,fatal: not a git repository (or any of the parent directories): .git
+
+2026-06-26 18:50:18,INFO,DONE,cycle complete
+2026-06-26 18:50:52,INFO,START,BULK_MODE=
+2026-06-26 18:50:52,INFO,MODE,bulk=False egypt_hour=18
+2026-06-26 18:50:57,INFO,SCRAPE_OK,status=200 size=5191826
+2026-06-26 18:50:58,INFO,PARSE_METHOD,classes
+2026-06-26 18:50:58,INFO,PARSE_OK,total_ads=45
+2026-06-26 18:50:58,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 18:50:58,INFO,FILTER_OK,new=17 total_seen=0
+2026-06-26 18:52:24,INFO,GEMINI_OK,evaluated=17
+2026-06-26 18:52:26,INFO,TELEGRAM_OK,
+2026-06-26 18:52:26,INFO,ALERT,deal: سامسونج اس 23 الترا EGP 19,000
+2026-06-26 18:52:27,INFO,TELEGRAM_OK,
+2026-06-26 18:52:27,INFO,ALERT,deal: Apple - iPhone 11 Pro Max EGP 12,000
+2026-06-26 18:52:27,INFO,STATE_SAVED,ids_appended=17
+2026-06-26 18:52:27,INFO,DB_APPEND_OK,rows=17
+2026-06-26 18:52:28,ERROR,GIT_PUSH_ERR,fatal: not a git repository (or any of the parent directories): .git
+
+2026-06-26 18:52:28,INFO,DONE,cycle complete
+2026-06-26 19:23:36,WARN,SCRAPE_FAIL,attempt=1 status=404
+2026-06-26 19:23:57,WARN,SCRAPE_FAIL,attempt=2 status=404
+2026-06-26 19:24:15,WARN,SCRAPE_FAIL,attempt=3 status=404
+2026-06-26 19:24:15,ERROR,SCRAPE_EXHAUSTED,all retries failed
+2026-06-26 19:24:34,INFO,SCRAPE_OK,status=200 size=5192213
+2026-06-26 19:24:48,INFO,SCRAPE_OK,status=200 size=5192211
+2026-06-26 19:25:12,INFO,SCRAPE_OK,status=200 size=5192235
+2026-06-26 19:25:41,INFO,SCRAPE_OK,status=200 size=5192226
+2026-06-26 19:26:02,INFO,SCRAPE_OK,status=200 size=5192227
+2026-06-26 19:26:27,INFO,SCRAPE_OK,status=200 size=5194014
+2026-06-26 19:26:50,INFO,SCRAPE_OK,status=200 size=5192616
+2026-06-26 19:27:10,INFO,TELEGRAM_OK,
+2026-06-26 19:27:10,INFO,TELEGRAM_OK,
+2026-06-26 19:29:13,INFO,START,BULK_MODE=
+2026-06-26 19:29:13,INFO,MODE,bulk=False egypt_hour=19
+2026-06-26 19:29:19,INFO,SCRAPE_OK,status=200 size=5190708
+2026-06-26 19:29:19,INFO,PARSE_METHOD,classes
+2026-06-26 19:29:19,INFO,PARSE_OK,total_ads=45
+2026-06-26 19:29:19,INFO,TIME_FILTER,kept=17 discarded=28
+2026-06-26 19:29:19,INFO,FILTER_OK,new=17 total_seen=17
+2026-06-26 19:30:46,INFO,GEMINI_OK,evaluated=17
+2026-06-26 19:30:47,INFO,TELEGRAM_OK,
+2026-06-26 19:30:47,INFO,ALERT,deal: Apple - iPhone 11 Storge 256 with box EGP 12,500
+2026-06-26 19:30:47,INFO,TELEGRAM_OK,
+2026-06-26 19:30:47,INFO,ALERT,deal: سامسونج اس 23 الترا EGP 19,000
+2026-06-26 19:30:47,INFO,STATE_SAVED,ids_appended=17
+2026-06-26 19:30:47,INFO,DB_APPEND_OK,rows=17
+2026-06-26 19:30:47,ERROR,GIT_PUSH_ERR,fatal: not a git repository (or any of the parent directories): .git
+
+2026-06-26 19:30:47,INFO,DONE,cycle complete
+2026-06-26 20:32:29,INFO,START,BULK_MODE=
+2026-06-26 20:32:29,INFO,MODE,bulk=False egypt_hour=20
+2026-06-26 20:32:33,INFO,SCRAPE_OK,status=200 size=5183549
+2026-06-26 20:32:33,INFO,PARSE_METHOD,classes
+2026-06-26 20:32:33,INFO,PARSE_OK,total_ads=45
+2026-06-26 20:32:33,INFO,TIME_FILTER,kept=15 discarded=30
+2026-06-26 20:32:33,INFO,FILTER_OK,new=9 total_seen=34
+2026-06-26 20:33:28,INFO,GEMINI_OK,evaluated=9
+2026-06-26 20:33:28,INFO,STATE_SAVED,ids_appended=9
+2026-06-26 20:33:28,INFO,DB_MIGRATE,renamed old csv -> market_database_legacy.csv
+2026-06-26 20:33:28,INFO,DB_APPEND_OK,rows=9 session=Hourly
+2026-06-26 20:33:29,ERROR,GIT_PUSH_ERR,fatal: not a git repository (or any of the parent directories): .git
+
+2026-06-26 20:33:29,INFO,DONE,cycle complete
+2026-06-26 20:34:43,INFO,START,BULK_MODE=
+2026-06-26 20:34:43,INFO,MODE,bulk=False egypt_hour=20
+2026-06-26 20:34:49,INFO,SCRAPE_OK,status=200 size=5184870
+2026-06-26 20:34:49,INFO,PARSE_METHOD,classes
+2026-06-26 20:34:49,INFO,PARSE_OK,total_ads=45
+2026-06-26 20:34:49,INFO,TIME_FILTER,kept=16 discarded=29
+2026-06-26 20:34:49,INFO,FILTER_OK,new=1 total_seen=43
+2026-06-26 20:35:08,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-06-26 20:35:28,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-06-26 20:35:55,INFO,GEMINI_OK,evaluated=1
+2026-06-26 20:35:55,INFO,STATE_SAVED,ids_appended=1
+2026-06-26 20:35:55,INFO,DB_APPEND_OK,rows=1 session=Hourly
+2026-06-26 20:35:55,ERROR,GIT_PUSH_ERR,fatal: not a git repository (or any of the parent directories): .git
+
+2026-06-26 20:35:55,INFO,DONE,cycle complete
