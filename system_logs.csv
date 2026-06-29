@@ -424,3 +424,16 @@ timestamp,level,event,detail
 2026-06-29 07:23:48,ERROR,GEMINI_FAIL,all retries exhausted
 2026-06-29 07:23:48,INFO,END,no evaluations returned
 2026-06-29 07:23:48,INFO,STATE_SAVED,ids_appended=9
+2026-06-29 11:53:21,INFO,START,BULK_MODE=false
+2026-06-29 11:53:21,INFO,MODE,bulk=False egypt_hour=14
+2026-06-29 11:53:29,INFO,SCRAPE_OK,status=200 size=5211802
+2026-06-29 11:53:29,INFO,PARSE_METHOD,classes
+2026-06-29 11:53:29,INFO,PARSE_OK,total_ads=45
+2026-06-29 11:53:29,INFO,TIME_FILTER,kept=9 discarded=36
+2026-06-29 11:53:29,INFO,FILTER_OK,new=9 total_seen=302
+2026-06-29 11:54:26,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-06-29 11:55:16,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-06-29 11:56:05,WARN,GEMINI_JSON_ERR,attempt=3 model=gemini-2.5-flash
+2026-06-29 11:56:05,ERROR,GEMINI_FAIL,all retries exhausted
+2026-06-29 11:56:05,INFO,END,no evaluations returned
+2026-06-29 11:56:05,INFO,STATE_SAVED,ids_appended=9
