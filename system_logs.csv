@@ -805,3 +805,5 @@ timestamp,level,event,detail
 2026-07-03 17:16:39,INFO,GEMINI_OK,evaluated=14
 2026-07-03 17:16:39,INFO,STATE_SAVED,ids_appended=14
 2026-07-03 17:16:39,INFO,DB_APPEND_OK,rows=14 session=Hourly
+2026-07-03 17:16:40,INFO,GIT_PUSH_OK,
+2026-07-03 17:16:40,INFO,DONE,cycle complete
