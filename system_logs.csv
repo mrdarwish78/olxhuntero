@@ -1676,3 +1676,16 @@ timestamp,level,event,detail
 2026-07-12 09:01:21,INFO,DB_APPEND_OK,rows=10 session=Hourly
 2026-07-12 09:01:23,INFO,GIT_PUSH_OK,
 2026-07-12 09:01:23,INFO,DONE,cycle complete
+2026-07-12 10:27:57,INFO,START,BULK_MODE=false
+2026-07-12 10:27:57,INFO,MODE,bulk=False egypt_hour=13
+2026-07-12 10:28:02,INFO,SCRAPE_OK,status=200 size=5176703
+2026-07-12 10:28:02,INFO,PARSE_METHOD,classes
+2026-07-12 10:28:02,INFO,PARSE_OK,total_ads=45
+2026-07-12 10:28:02,INFO,TIME_FILTER,kept=23 discarded=22
+2026-07-12 10:28:02,INFO,FILTER_OK,new=22 total_seen=1785
+2026-07-12 10:29:11,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err='NoneType' object has no attribute 'strip'
+2026-07-12 10:30:37,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-07-12 10:32:08,WARN,GEMINI_JSON_ERR,attempt=3 model=gemini-2.5-flash
+2026-07-12 10:32:08,ERROR,GEMINI_FAIL,all retries exhausted
+2026-07-12 10:32:08,INFO,END,no evaluations returned
+2026-07-12 10:32:08,INFO,STATE_SAVED,ids_appended=22
