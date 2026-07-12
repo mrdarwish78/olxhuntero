@@ -1714,3 +1714,14 @@ timestamp,level,event,detail
 2026-07-12 13:00:31,ERROR,GEMINI_FAIL,all retries exhausted
 2026-07-12 13:00:31,INFO,END,no evaluations returned
 2026-07-12 13:00:31,INFO,STATE_SAVED,ids_appended=16
+2026-07-12 14:26:52,INFO,START,BULK_MODE=false
+2026-07-12 14:26:52,INFO,MODE,bulk=False egypt_hour=17
+2026-07-12 14:26:55,INFO,SCRAPE_OK,status=200 size=5183607
+2026-07-12 14:26:56,INFO,PARSE_METHOD,classes
+2026-07-12 14:26:56,INFO,PARSE_OK,total_ads=45
+2026-07-12 14:26:56,INFO,TIME_FILTER,kept=26 discarded=19
+2026-07-12 14:26:56,INFO,FILTER_OK,new=25 total_seen=1849
+2026-07-12 14:28:32,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err='NoneType' object has no attribute 'strip'
+2026-07-12 14:30:02,INFO,GEMINI_OK,evaluated=25
+2026-07-12 14:30:02,INFO,STATE_SAVED,ids_appended=25
+2026-07-12 14:30:02,INFO,DB_APPEND_OK,rows=25 session=Hourly
