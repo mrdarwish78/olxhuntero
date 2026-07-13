@@ -1800,3 +1800,16 @@ timestamp,level,event,detail
 2026-07-12 23:53:16,INFO,DB_APPEND_OK,rows=24 session=BULK_WINDOW
 2026-07-12 23:53:17,INFO,GIT_PUSH_OK,
 2026-07-12 23:53:17,INFO,DONE,cycle complete
+2026-07-13 05:59:08,INFO,START,BULK_MODE=true
+2026-07-13 05:59:08,INFO,MODE,bulk=True egypt_hour=8
+2026-07-13 05:59:14,INFO,SCRAPE_OK,status=200 size=5191436
+2026-07-13 05:59:14,INFO,PARSE_METHOD,classes
+2026-07-13 05:59:14,INFO,PARSE_OK,total_ads=45
+2026-07-13 05:59:14,INFO,TIME_FILTER,kept=22 discarded=23
+2026-07-13 05:59:14,INFO,FILTER_OK,new=20 total_seen=1988
+2026-07-13 05:59:43,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-07-13 05:59:47,WARN,GEMINI_ERR,attempt=2 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-07-13 05:59:50,WARN,GEMINI_ERR,attempt=3 model=gemini-2.5-flash err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please 
+2026-07-13 05:59:50,ERROR,GEMINI_FAIL,all retries exhausted
+2026-07-13 05:59:50,INFO,END,no evaluations returned
+2026-07-13 05:59:50,INFO,STATE_SAVED,ids_appended=20
