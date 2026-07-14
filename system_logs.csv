@@ -1890,3 +1890,14 @@ timestamp,level,event,detail
 2026-07-13 23:52:36,INFO,DB_APPEND_OK,rows=24 session=BULK_WINDOW
 2026-07-13 23:52:37,INFO,GIT_PUSH_OK,
 2026-07-13 23:52:37,INFO,DONE,cycle complete
+2026-07-14 05:21:36,INFO,START,BULK_MODE=true
+2026-07-14 05:21:36,INFO,MODE,bulk=True egypt_hour=8
+2026-07-14 05:21:39,INFO,SCRAPE_OK,status=200 size=5183691
+2026-07-14 05:21:39,INFO,PARSE_METHOD,classes
+2026-07-14 05:21:39,INFO,PARSE_OK,total_ads=45
+2026-07-14 05:21:39,INFO,TIME_FILTER,kept=23 discarded=22
+2026-07-14 05:21:39,INFO,FILTER_OK,new=23 total_seen=2136
+2026-07-14 05:21:53,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-07-14 05:23:03,INFO,GEMINI_OK,evaluated=23
+2026-07-14 05:23:03,INFO,STATE_SAVED,ids_appended=23
+2026-07-14 05:23:03,INFO,DB_APPEND_OK,rows=23 session=BULK_WINDOW
