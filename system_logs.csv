@@ -2369,3 +2369,16 @@ timestamp,level,event,detail
 2026-07-18 08:43:51,INFO,DB_APPEND_OK,rows=9 session=Hourly
 2026-07-18 08:43:53,INFO,GIT_PUSH_OK,
 2026-07-18 08:43:53,INFO,DONE,cycle complete
+2026-07-18 10:10:59,INFO,START,BULK_MODE=false
+2026-07-18 10:10:59,INFO,MODE,bulk=False egypt_hour=13
+2026-07-18 10:11:05,INFO,SCRAPE_OK,status=200 size=5198969
+2026-07-18 10:11:05,INFO,PARSE_METHOD,classes
+2026-07-18 10:11:05,INFO,PARSE_OK,total_ads=45
+2026-07-18 10:11:05,INFO,TIME_FILTER,kept=17 discarded=28
+2026-07-18 10:11:05,INFO,FILTER_OK,new=17 total_seen=2799
+2026-07-18 10:12:32,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-07-18 10:13:36,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-07-18 10:14:44,WARN,GEMINI_JSON_ERR,attempt=3 model=gemini-2.5-flash
+2026-07-18 10:14:44,ERROR,GEMINI_FAIL,all retries exhausted
+2026-07-18 10:14:44,INFO,END,no evaluations returned
+2026-07-18 10:14:44,INFO,STATE_SAVED,ids_appended=17
