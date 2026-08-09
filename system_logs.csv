@@ -4947,3 +4947,15 @@ timestamp,level,event,detail
 2026-08-09 10:24:26,INFO,DB_APPEND_OK,rows=14 session=Hourly
 2026-08-09 10:24:28,INFO,GIT_PUSH_OK,
 2026-08-09 10:24:28,INFO,DONE,cycle complete
+2026-08-09 11:20:49,INFO,START,BULK_MODE=false
+2026-08-09 11:20:49,INFO,MODE,bulk=False egypt_hour=14
+2026-08-09 11:20:51,INFO,SCRAPE_OK,status=200 size=3297926
+2026-08-09 11:20:52,INFO,PARSE_METHOD,classes
+2026-08-09 11:20:52,INFO,PARSE_OK,total_ads=45
+2026-08-09 11:20:52,INFO,TIME_FILTER,kept=13 discarded=32
+2026-08-09 11:20:52,INFO,FILTER_OK,new=13 total_seen=5105
+2026-08-09 11:21:52,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err='NoneType' object has no attribute 'strip'
+2026-08-09 11:22:56,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-08-09 11:23:48,INFO,GEMINI_OK,evaluated=13
+2026-08-09 11:23:48,INFO,STATE_SAVED,ids_appended=13
+2026-08-09 11:23:48,INFO,DB_APPEND_OK,rows=13 session=Hourly
