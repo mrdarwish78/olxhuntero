@@ -5800,3 +5800,5 @@ timestamp,level,event,detail
 2026-08-14 16:41:48,INFO,GEMINI_OK,evaluated=5
 2026-08-14 16:41:48,INFO,STATE_SAVED,ids_appended=5
 2026-08-14 16:41:48,INFO,DB_APPEND_OK,rows=5 session=Hourly
+2026-08-14 16:41:50,INFO,GIT_PUSH_OK,
+2026-08-14 16:41:50,INFO,DONE,cycle complete
