@@ -6754,3 +6754,15 @@ timestamp,level,event,detail
 2026-08-19 18:20:56,INFO,DB_APPEND_OK,rows=14 session=Hourly
 2026-08-19 18:20:59,INFO,GIT_PUSH_OK,
 2026-08-19 18:20:59,INFO,DONE,cycle complete
+2026-08-19 19:18:15,INFO,START,BULK_MODE=false
+2026-08-19 19:18:15,INFO,MODE,bulk=False egypt_hour=22
+2026-08-19 19:18:19,INFO,SCRAPE_OK,status=200 size=3302614
+2026-08-19 19:18:19,INFO,PARSE_METHOD,classes
+2026-08-19 19:18:19,INFO,PARSE_OK,total_ads=45
+2026-08-19 19:18:19,INFO,TIME_FILTER,kept=14 discarded=31
+2026-08-19 19:18:19,INFO,FILTER_OK,new=12 total_seen=6406
+2026-08-19 19:22:49,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=Server disconnected without sending a response.
+2026-08-19 19:24:41,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-08-19 19:28:53,INFO,GEMINI_OK,evaluated=12
+2026-08-19 19:28:53,INFO,STATE_SAVED,ids_appended=12
+2026-08-19 19:28:53,INFO,DB_APPEND_OK,rows=12 session=Hourly
