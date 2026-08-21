@@ -6990,3 +6990,15 @@ timestamp,level,event,detail
 2026-08-21 08:29:28,INFO,DB_APPEND_OK,rows=4 session=Hourly
 2026-08-21 08:29:30,INFO,GIT_PUSH_OK,
 2026-08-21 08:29:30,INFO,DONE,cycle complete
+2026-08-21 09:26:37,INFO,START,BULK_MODE=false
+2026-08-21 09:26:37,INFO,MODE,bulk=False egypt_hour=12
+2026-08-21 09:26:39,INFO,SCRAPE_OK,status=200 size=3313002
+2026-08-21 09:26:39,INFO,PARSE_METHOD,classes
+2026-08-21 09:26:39,INFO,PARSE_OK,total_ads=45
+2026-08-21 09:26:39,INFO,TIME_FILTER,kept=5 discarded=40
+2026-08-21 09:26:39,INFO,FILTER_OK,new=5 total_seen=6545
+2026-08-21 09:27:53,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=500 INTERNAL. {'error': {'code': 500, 'message': 'An internal error has occurred. Please retry or re
+2026-08-21 09:28:31,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-08-21 09:29:09,INFO,GEMINI_OK,evaluated=5
+2026-08-21 09:29:09,INFO,STATE_SAVED,ids_appended=5
+2026-08-21 09:29:09,INFO,DB_APPEND_OK,rows=5 session=Hourly
