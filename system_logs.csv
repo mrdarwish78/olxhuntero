@@ -7041,3 +7041,16 @@ timestamp,level,event,detail
 2026-08-21 12:28:00,INFO,DB_APPEND_OK,rows=3 session=Hourly
 2026-08-21 12:28:02,INFO,GIT_PUSH_OK,
 2026-08-21 12:28:02,INFO,DONE,cycle complete
+2026-08-21 13:37:59,INFO,START,BULK_MODE=false
+2026-08-21 13:37:59,INFO,MODE,bulk=False egypt_hour=16
+2026-08-21 13:38:02,INFO,SCRAPE_OK,status=200 size=3315397
+2026-08-21 13:38:02,INFO,PARSE_METHOD,classes
+2026-08-21 13:38:02,INFO,PARSE_OK,total_ads=45
+2026-08-21 13:38:02,INFO,TIME_FILTER,kept=5 discarded=40
+2026-08-21 13:38:02,INFO,FILTER_OK,new=4 total_seen=6562
+2026-08-21 13:38:40,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-08-21 13:39:22,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-08-21 13:39:59,WARN,GEMINI_JSON_ERR,attempt=3 model=gemini-2.5-flash
+2026-08-21 13:39:59,ERROR,GEMINI_FAIL,all retries exhausted
+2026-08-21 13:39:59,INFO,END,no evaluations returned
+2026-08-21 13:39:59,INFO,STATE_SAVED,ids_appended=4
