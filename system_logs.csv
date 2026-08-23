@@ -7490,3 +7490,16 @@ timestamp,level,event,detail
 2026-08-23 19:16:32,INFO,DB_APPEND_OK,rows=9 session=Hourly
 2026-08-23 19:16:33,INFO,GIT_PUSH_OK,
 2026-08-23 19:16:33,INFO,DONE,cycle complete
+2026-08-23 23:16:33,INFO,START,BULK_MODE=true
+2026-08-23 23:16:33,INFO,MODE,bulk=True egypt_hour=2
+2026-08-23 23:16:36,INFO,SCRAPE_OK,status=200 size=3312081
+2026-08-23 23:16:36,INFO,PARSE_METHOD,classes
+2026-08-23 23:16:36,INFO,PARSE_OK,total_ads=45
+2026-08-23 23:16:36,INFO,TIME_FILTER,kept=9 discarded=36
+2026-08-23 23:16:36,INFO,FILTER_OK,new=9 total_seen=6872
+2026-08-23 23:17:39,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-08-23 23:17:42,WARN,GEMINI_ERR,attempt=2 model=gemini-2.5-flash err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please 
+2026-08-23 23:17:46,WARN,GEMINI_ERR,attempt=3 model=gemini-2.5-flash err=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please 
+2026-08-23 23:17:46,ERROR,GEMINI_FAIL,all retries exhausted
+2026-08-23 23:17:46,INFO,END,no evaluations returned
+2026-08-23 23:17:46,INFO,STATE_SAVED,ids_appended=9
