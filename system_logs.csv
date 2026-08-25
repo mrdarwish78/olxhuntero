@@ -7712,3 +7712,14 @@ timestamp,level,event,detail
 2026-08-25 07:36:53,INFO,DB_APPEND_OK,rows=6 session=Hourly
 2026-08-25 07:36:55,INFO,GIT_PUSH_OK,
 2026-08-25 07:36:55,INFO,DONE,cycle complete
+2026-08-25 08:31:03,INFO,START,BULK_MODE=false
+2026-08-25 08:31:03,INFO,MODE,bulk=False egypt_hour=11
+2026-08-25 08:31:06,INFO,SCRAPE_OK,status=200 size=3311066
+2026-08-25 08:31:06,INFO,PARSE_METHOD,classes
+2026-08-25 08:31:06,INFO,PARSE_OK,total_ads=45
+2026-08-25 08:31:06,INFO,TIME_FILTER,kept=8 discarded=37
+2026-08-25 08:31:06,INFO,FILTER_OK,new=5 total_seen=6959
+2026-08-25 08:35:54,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=Server disconnected without sending a response.
+2026-08-25 08:37:59,INFO,GEMINI_OK,evaluated=5
+2026-08-25 08:37:59,INFO,STATE_SAVED,ids_appended=5
+2026-08-25 08:37:59,INFO,DB_APPEND_OK,rows=5 session=Hourly
