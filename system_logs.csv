@@ -8478,3 +8478,16 @@ timestamp,level,event,detail
 2026-09-03 21:39:10,ERROR,GEMINI_FAIL,all retries exhausted
 2026-09-03 21:39:10,INFO,END,no evaluations returned
 2026-09-03 21:39:10,INFO,STATE_SAVED,ids_appended=10
+2026-09-04 00:41:57,INFO,START,BULK_MODE=true
+2026-09-04 00:41:57,INFO,MODE,bulk=True egypt_hour=3
+2026-09-04 00:41:59,INFO,SCRAPE_OK,status=200 size=3286463
+2026-09-04 00:41:59,INFO,PARSE_METHOD,classes
+2026-09-04 00:41:59,INFO,PARSE_OK,total_ads=45
+2026-09-04 00:41:59,INFO,TIME_FILTER,kept=10 discarded=35
+2026-09-04 00:41:59,INFO,FILTER_OK,new=9 total_seen=7399
+2026-09-04 00:43:08,WARN,GEMINI_JSON_ERR,attempt=1 model=gemini-2.5-flash
+2026-09-04 00:43:58,WARN,GEMINI_JSON_ERR,attempt=2 model=gemini-2.5-flash
+2026-09-04 00:45:00,WARN,GEMINI_JSON_ERR,attempt=3 model=gemini-2.5-flash
+2026-09-04 00:45:00,ERROR,GEMINI_FAIL,all retries exhausted
+2026-09-04 00:45:00,INFO,END,no evaluations returned
+2026-09-04 00:45:00,INFO,STATE_SAVED,ids_appended=9
