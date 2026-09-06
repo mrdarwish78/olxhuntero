@@ -8678,3 +8678,16 @@ timestamp,level,event,detail
 2026-09-06 14:40:40,INFO,DB_APPEND_OK,rows=16 session=Hourly
 2026-09-06 14:40:42,INFO,GIT_PUSH_OK,
 2026-09-06 14:40:42,INFO,DONE,cycle complete
+2026-09-06 17:25:37,INFO,START,BULK_MODE=false
+2026-09-06 17:25:37,INFO,MODE,bulk=False egypt_hour=20
+2026-09-06 17:25:40,INFO,SCRAPE_OK,status=200 size=3289023
+2026-09-06 17:25:40,INFO,PARSE_METHOD,classes
+2026-09-06 17:25:40,INFO,PARSE_OK,total_ads=45
+2026-09-06 17:25:40,INFO,TIME_FILTER,kept=17 discarded=28
+2026-09-06 17:25:40,INFO,FILTER_OK,new=16 total_seen=7660
+2026-09-06 17:26:45,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-09-06 17:27:50,WARN,GEMINI_ERR,attempt=2 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-09-06 17:28:30,WARN,GEMINI_ERR,attempt=3 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-09-06 17:28:30,ERROR,GEMINI_FAIL,all retries exhausted
+2026-09-06 17:28:30,INFO,END,no evaluations returned
+2026-09-06 17:28:30,INFO,STATE_SAVED,ids_appended=16
