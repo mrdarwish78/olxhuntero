@@ -9002,3 +9002,15 @@ timestamp,level,event,detail
 2026-09-11 15:46:50,INFO,DB_APPEND_OK,rows=6 session=Hourly
 2026-09-11 15:46:52,INFO,GIT_PUSH_OK,
 2026-09-11 15:46:52,INFO,DONE,cycle complete
+2026-09-11 18:52:41,INFO,START,BULK_MODE=false
+2026-09-11 18:52:41,INFO,MODE,bulk=False egypt_hour=21
+2026-09-11 18:52:43,INFO,SCRAPE_OK,status=200 size=3340078
+2026-09-11 18:52:44,INFO,PARSE_METHOD,classes
+2026-09-11 18:52:44,INFO,PARSE_OK,total_ads=45
+2026-09-11 18:52:44,INFO,TIME_FILTER,kept=7 discarded=38
+2026-09-11 18:52:44,INFO,FILTER_OK,new=7 total_seen=7778
+2026-09-11 18:53:22,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-09-11 18:53:32,WARN,GEMINI_ERR,attempt=2 model=gemini-2.5-flash err=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman
+2026-09-11 18:54:31,INFO,GEMINI_OK,evaluated=7
+2026-09-11 18:54:31,INFO,STATE_SAVED,ids_appended=7
+2026-09-11 18:54:31,INFO,DB_APPEND_OK,rows=7 session=Hourly
