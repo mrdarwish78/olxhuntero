@@ -9078,3 +9078,15 @@ timestamp,level,event,detail
 2026-09-12 14:40:11,INFO,DB_APPEND_OK,rows=5 session=Hourly
 2026-09-12 14:40:13,INFO,GIT_PUSH_OK,
 2026-09-12 14:40:13,INFO,DONE,cycle complete
+2026-09-12 17:32:26,INFO,START,BULK_MODE=false
+2026-09-12 17:32:26,INFO,MODE,bulk=False egypt_hour=20
+2026-09-12 17:32:29,INFO,SCRAPE_OK,status=200 size=3336563
+2026-09-12 17:32:29,INFO,PARSE_METHOD,classes
+2026-09-12 17:32:29,INFO,PARSE_OK,total_ads=45
+2026-09-12 17:32:29,INFO,TIME_FILTER,kept=7 discarded=38
+2026-09-12 17:32:29,INFO,FILTER_OK,new=7 total_seen=7821
+2026-09-12 17:36:10,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err=500 INTERNAL. {'error': {'code': 500, 'message': 'An internal error has occurred. Please retry or re
+2026-09-12 17:40:29,WARN,GEMINI_ERR,attempt=2 model=gemini-2.5-flash err=Server disconnected without sending a response.
+2026-09-12 17:41:57,INFO,GEMINI_OK,evaluated=7
+2026-09-12 17:41:57,INFO,STATE_SAVED,ids_appended=7
+2026-09-12 17:41:57,INFO,DB_APPEND_OK,rows=7 session=Hourly
