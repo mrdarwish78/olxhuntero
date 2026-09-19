@@ -9561,3 +9561,14 @@ timestamp,level,event,detail
 2026-09-19 18:19:35,ERROR,GEMINI_FAIL,all retries exhausted
 2026-09-19 18:19:35,INFO,END,no evaluations returned
 2026-09-19 18:19:35,INFO,STATE_SAVED,ids_appended=15
+2026-09-19 21:11:07,INFO,START,BULK_MODE=false
+2026-09-19 21:11:07,INFO,MODE,bulk=False egypt_hour=0
+2026-09-19 21:11:10,INFO,SCRAPE_OK,status=200 size=3327283
+2026-09-19 21:11:10,INFO,PARSE_METHOD,classes
+2026-09-19 21:11:10,INFO,PARSE_OK,total_ads=45
+2026-09-19 21:11:10,INFO,TIME_FILTER,kept=20 discarded=25
+2026-09-19 21:11:10,INFO,FILTER_OK,new=20 total_seen=8415
+2026-09-19 21:12:44,WARN,GEMINI_ERR,attempt=1 model=gemini-2.5-flash err='NoneType' object has no attribute 'strip'
+2026-09-19 21:13:36,INFO,GEMINI_OK,evaluated=20
+2026-09-19 21:13:36,INFO,STATE_SAVED,ids_appended=20
+2026-09-19 21:13:36,INFO,DB_APPEND_OK,rows=20 session=Hourly
